@@ -6,17 +6,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>techHos</title>
   </head>
   <body>
-    <h1>Hello world from techHos</h1>
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top">
+      <div class="container navcss">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand">techHos <i class="fas fa-mug-hot"></i></a>
+        <div class="collapse navbar-collapse bg-sm-primary" id="Navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item inactive">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item inactive">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="container content" id="content">
+        <div class="row">
+          <div class="col-12 col-md-8 text-md-left text-center">
+            <h1>We Fix Tech</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-11">
+            <h1 class="h1-2 text-md-right text-center mt-4">With the best deal</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#anecdotess"><i class="fas fa-sort-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid anecdotes" id="anecdotess">
+      <div class="row">
+        <div class="col-10 offset-lg-2 text-lg-left">
+          <h1>Stories</h1>
+        </div>
+      </div>
+      <div class="row row-content justify-content-center">
+        <div class="col-12 col-lg-2">
+          <h2>The best jedis available</h2>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et elit felis. Nulla vel placerat dui, ut volutpat eros. Donec erat
+            turpis, porttitor at feugiat eu, gravida et arcu. Vestibulum interdum eleifend augue a facilisis. Etiam id nibh pharetra, varius justo eu,
+            volutpat libero.
+          </p>
+        </div>
+      </div>
+      <div class="row row-content justify-content-center">
+        <div class="col-12 col-lg-2 order-lg-last">
+          <h2>The lasers on my tablet are back on</h2>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et elit felis. Nulla vel placerat dui, ut volutpat eros. Donec erat
+            turpis, porttitor at feugiat eu, gravida et arcu. Vestibulum interdum eleifend augue a facilisis. Etiam id nibh pharetra, varius justo eu,
+            volutpat libero.
+          </p>
+        </div>
+      </div>
+      <div class="row row-content justify-content-center">
+        <div class="col-12 col-lg-2">
+          <h2>My cyborg-dog is back to life</h2>
+        </div>
+        <div class="col-12 col-lg-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et elit felis. Nulla vel placerat dui, ut volutpat eros. Donec erat
+            turpis, porttitor at feugiat eu, gravida et arcu. Vestibulum interdum eleifend augue a facilisis. Etiam id nibh pharetra, varius justo eu,
+            volutpat libero.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="#clientss"><i class="fas fa-sort-down"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid clients" id="clientss">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>Our clients</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-6 col-lg-2">
+            <i class="fab fa-google"></i>
+          </div>
+          <div class="col-6 col-lg-2">
+            <i class="fab fa-facebook"></i>
+          </div>
+          <div class="col-6 col-lg-2">
+            <i class="fab fa-ebay"></i>
+          </div>
+          <div class="col-6 col-lg-2">
+            <i class="fab fa-twitter-square"></i>
+          </div>
+          <div class="col-6 col-lg-2">
+            <i class="fab fa-apple"></i>
+          </div>
+          <div class="col-6 col-lg-2">
+            <i class="fab fa-linux"></i>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-lg-5 text-center offset-lg-1">
+            <div class="row">
+              <div class="col-6 col-lg-2">
+                <h2>Cases fixed</h2>
+              </div>
+              <div class="col-6 col-lg-10">
+                <h1 class="number">4.579</h1>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-6 col-lg-2">
+                <h2>Dogs rescued</h2>
+              </div>
+              <div class="col-6 col-lg-10">
+                <h1 class="number">21</h1>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-6 col-lg-2">
+                <h2>Tablets killed</h2>
+              </div>
+              <div class="col-6 col-lg-10">
+                <h1 class="number">0</h1>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col-6 col-lg-2">
+                <h2>Happy people</h2>
+              </div>
+              <div class="col-6 col-lg-10">
+                <h1 class="number">302.948</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="./svg.svg" class="img-fluid" alt="Responsive image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4 text-sm-left text-center">
+              <h2>Contact us</h2>
+              <ul class="list-unstyled">
+                <li><i class="fas fa-map-marker-alt"></i> Salvador Ferrer 2201</li>
+                <li><i class="fas fa-phone-square-alt"></i> +598 7 322 467</li>
+                <li><i class="far fa-envelope"></i> techHos@tech.co</li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-4 text-center">
+              <i class="fas fa-mug-hot"></i>
+            </div>
+            <div class="col-12 col-sm-4 text-sm-right text-center reference">
+              <h2>Like what you see?</h2>
+
+              <h5>
+                <a href="https://joaquinfernandez19.github.io/portflio-2.0/" target="_blank"
+                  ><i class="fas fa-external-link-alt"></i> Check my other stuff!</a
+                >
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center mt-5">
+              <span>All rights reserved techHos since 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
